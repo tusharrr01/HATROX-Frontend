@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Aeonik', 'Montserrat', 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, .main-background {
+  background-color: #e1e3e4; /* main background */
+  color: #313131; /* primary text */
+}
+
+nav, header {
+  background-color: #00000005; /* nav or header background */
+  color: #000000; 
+}
