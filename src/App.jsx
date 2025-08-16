@@ -8,11 +8,12 @@ import Register from "./pages/Register";
 import OwnerLogin from "./pages/OwnerLogin";
 import Admin from "./pages/Admin";
 import CreateProducts from "./pages/CreateProducts";
-
+import TopMarquee from "./components/TopMarquee";
 function App() {
   return (
     <BrowserRouter>
       <div className="flex flex-col min-h-screen">
+        {/* <TopMarquee/> */}
         <Header />
         <main className="flex-1">
           <Routes>
